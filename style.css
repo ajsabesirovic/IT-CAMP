@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.div1 p {
+  font-size: 20px;
+}
+.div1 {
+  margin-left: 150px;
+}
+.div1 h1 {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: lighter;
+  color: rgb(160, 150, 150);
+}
+.div1 h1 span {
+  font-size: 120px;
+}
+.div4 {
+  margin-left: 150px;
+}
+.div4 a {
+  text-decoration: none;
+}
+img {
+  size: 300px;
+  image-orientation: ;
+}

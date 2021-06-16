@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+}
+.div1 {
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 362px;
+  width: 318px;
+  background-color: rgb(14, 13, 13);
+  border: 1.5px solid;
+  border-radius: 15px;
+  border-color: rgb(96, 98, 99);
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+.div1 :hover {
+  border: 3px solid white;
+}
+
+.div1 h1 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0mm;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.div1 p {
+  margin-left: 10px;
+}
+
+.iconFooter i {
+  width: 17px;
+  height: 17px;
+  width: 33.3%;
+}
+
+.div1 img {
+  display: inline;
+  /* margin-bottom: 30px; */
+}
+.img1 {
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  width: 24px;
+  height: 24px;
+}

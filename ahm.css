@@ -1,0 +1,9 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.div1 {
+  display: inline-block;
+  justify-content: space-between;
+}
