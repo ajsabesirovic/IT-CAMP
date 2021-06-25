@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2.6rem;
+}
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 3rem;
+  padding: 2rem;
+  font-weight: normal;
+}
+h4,
+h5 {
+  font-size: 2.8rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  padding: 2rem 6rem;
+  background-color: rgb(86, 132, 153);
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.main-head {
+  background-color: #131c27;
+  color: white;
+}
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+#Logo {
+  flex: 2 1 40rem;
+  font: bold;
+}
+.hero {
+  background: linear-gradient(rgb(14, 14, 14), transparent),
+    url(img/pexels-tomáš-malík-3408354.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h3 {
+  padding: 5rem;
+}
+@media screen and (max-width: 932px) {
+  nav {
+    justify-content: center;
+  }
+  #Logo {
+    padding: 1rem;
+    text-align: center;
+  }
+}
